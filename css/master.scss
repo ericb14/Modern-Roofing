@@ -1,0 +1,107 @@
+body{
+}
+.container-fluid {
+    padding: 0px;
+}
+$oxygen:'Oxygen', sans-serif;
+$para:'Open Sans', sans-serif;
+$blue: #0C1035;
+$gray: #A9A9A9;
+
+#mainNavBar{
+    padding-right: 4em;
+}
+.icon-bar{
+    background-color: $blue;
+}
+#nav_logo{
+    margin-left: 1.5em;
+}
+
+a{
+    color: $blue;
+    font-family: $oxygen;
+    font-weight: 100;
+}
+#sec_1{
+    margin-top: 8em;
+    #logo_main{
+        margin-top: 3em;
+        margin-left: 1em;
+
+    }
+    .main-img{
+        // removes padding from rows
+        padding: 0;
+    }
+    p{
+        margin-bottom: 2em;
+        font-family: $oxygen;
+        font-size: 1.4em;
+        font-weight:lighter;
+        color: $gray;
+    }
+    #image_wrapper{
+        padding: 0;
+    }
+    .info_box{
+        // padding-left: 3em;
+        // padding-right: 3em;
+        margin-left: 2em;
+        margin-right: 2em;
+
+        p{
+            font-size: 1.2em;
+            font-family: $oxygen;
+            font-weight: lighter;
+
+        }
+        h3{
+            color: $blue;
+            font-weight: 200;
+            font-family: $oxygen;
+        }
+    }
+
+}
+
+#sec_2{
+    margin-top: 3em;
+    margin-bottom: 5em;
+
+    h1{
+        font-family: $oxygen;
+        font-weight: bold;
+        font-size:4em;
+        color: $blue;
+        margin-bottom:.5em;
+
+    }
+
+    div .col-md-4{
+        padding: 0;
+
+    }
+    div .col-md-8{
+        padding: 0;
+    }
+    
+}
+
+.footer{
+
+    p{
+        font-family: $oxygen;
+        color: $gray;
+    }
+    i{
+        color: $blue;
+        // align-items: baseline;
+    }
+    #social_media{
+        text-align: center;
+        margin-top: 6em;
+
+    }
+
+}

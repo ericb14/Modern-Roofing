@@ -1,0 +1,68 @@
+.container-fluid {
+  padding: 0px; }
+
+#mainNavBar {
+  padding-right: 4em; }
+
+.icon-bar {
+  background-color: #0C1035; }
+
+#nav_logo {
+  margin-left: 1.5em; }
+
+a {
+  color: #0C1035;
+  font-family: "Oxygen", sans-serif;
+  font-weight: 100; }
+
+#sec_1 {
+  margin-top: 8em; }
+  #sec_1 #logo_main {
+    margin-top: 3em;
+    margin-left: 1em; }
+  #sec_1 .main-img {
+    padding: 0; }
+  #sec_1 p {
+    margin-bottom: 2em;
+    font-family: "Oxygen", sans-serif;
+    font-size: 1.4em;
+    font-weight: lighter;
+    color: #A9A9A9; }
+  #sec_1 #image_wrapper {
+    padding: 0; }
+  #sec_1 .info_box {
+    margin-left: 2em;
+    margin-right: 2em; }
+    #sec_1 .info_box p {
+      font-size: 1.2em;
+      font-family: "Oxygen", sans-serif;
+      font-weight: lighter; }
+    #sec_1 .info_box h3 {
+      color: #0C1035;
+      font-weight: 200;
+      font-family: "Oxygen", sans-serif; }
+
+#sec_2 {
+  margin-top: 3em;
+  margin-bottom: 5em; }
+  #sec_2 h1 {
+    font-family: "Oxygen", sans-serif;
+    font-weight: bold;
+    font-size: 4em;
+    color: #0C1035;
+    margin-bottom: .5em; }
+  #sec_2 div .col-md-4 {
+    padding: 0; }
+  #sec_2 div .col-md-8 {
+    padding: 0; }
+
+.footer p {
+  font-family: "Oxygen", sans-serif;
+  color: #A9A9A9; }
+
+.footer i {
+  color: #0C1035; }
+
+.footer #social_media {
+  text-align: center;
+  margin-top: 6em; }
