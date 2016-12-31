@@ -1,12 +1,29 @@
 body{
 }
-.container-fluid {
-    padding: 0px;
+div.container-fluid{
+    padding: 0;
+    overflow: hidden;
 }
 $oxygen:'Oxygen', sans-serif;
 $para:'Open Sans', sans-serif;
 $blue: #0C1035;
 $gray: #A9A9A9;
+
+p{
+    font-family: $oxygen;
+    font-size: 1.4em;
+    font-weight:lighter;
+    color: $gray;
+}
+h1{
+    font-family: $oxygen;
+    font-weight: bold;
+    font-size:4em;
+    color: $blue;
+}
+h2{
+
+}
 
 #mainNavBar{
     padding-right: 4em;
@@ -23,7 +40,18 @@ a{
     font-family: $oxygen;
     font-weight: 100;
 }
+// === animation classes ===
+
+.screen{
+    filter: sepia(1);
+}
+
+// == animation classes end ===
+
 #sec_1{
+    #intro{
+        padding: 2em;
+    }
     margin-top: 8em;
     #logo_main{
         margin-top: 3em;
@@ -34,12 +62,16 @@ a{
         // removes padding from rows
         padding: 0;
     }
+    h1{
+        margin: auto;
+    }
     p{
         margin-bottom: 2em;
         font-family: $oxygen;
         font-size: 1.4em;
         font-weight:lighter;
         color: $gray;
+
     }
     #image_wrapper{
         padding: 0;
@@ -68,6 +100,12 @@ a{
 #sec_2{
     margin-top: 3em;
     margin-bottom: 5em;
+    img{
+
+    }
+    p{
+        padding: 1em;
+    }
 
     h1{
         font-family: $oxygen;
@@ -75,17 +113,22 @@ a{
         font-size:4em;
         color: $blue;
         margin-bottom:.5em;
+        }
 
-    }
+        h2{
+            margin-left: .5em;
+        }
 
-    div .col-md-4{
+    div .col-sm-6{
         padding: 0;
 
     }
-    div .col-md-8{
-        padding: 0;
+    #case_study1{
+        padding: 1em;
     }
-    
+    #case_study2{
+        padding: 1em;
+    }
 }
 
 .footer{
@@ -93,6 +136,7 @@ a{
     p{
         font-family: $oxygen;
         color: $gray;
+        font-size: 1em;
     }
     i{
         color: $blue;
@@ -104,4 +148,18 @@ a{
 
     }
 
+}
+
+#sec_3{
+    padding: 4em;
+    #contact{
+        background-color: $blue;
+        color: white;
+        font-family: $para;
+        margin-top: 5em;
+        border-radius: .5em;
+        padding: 1em;
+    }
+    #message label{
+        }
 }
