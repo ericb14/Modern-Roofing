@@ -47,23 +47,32 @@ a{
 }
 
 // == animation classes end ===
+#main_row{
+    padding-left: 2em;
+    padding-right: 2em;
+}
 
 #sec_1{
     #intro{
-        padding: 2em;
+        // padding: 2em;
+
     }
     margin-top: 8em;
     #logo_main{
         margin-top: 3em;
         margin-left: 1em;
+    }
+    #main_row{
 
+        margin-top: -8em;
     }
     .main-img{
         // removes padding from rows
         padding: 0;
     }
     h1{
-        margin: auto;
+
+        text-align: center;
     }
     p{
         margin-bottom: 2em;
@@ -152,14 +161,18 @@ a{
 
 #sec_3{
     padding: 4em;
+
     #contact{
         background-color: $blue;
         color: white;
         font-family: $para;
-        margin-top: 5em;
+        // margin-top: 5em;
         border-radius: .5em;
         padding: 1em;
     }
     #message label{
+        }
+        p{
+            line-height: 1em;
         }
 }

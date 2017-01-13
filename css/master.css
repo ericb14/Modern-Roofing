@@ -31,17 +31,21 @@ a {
 .screen {
   filter: sepia(1); }
 
+#main_row {
+  padding-left: 2em;
+  padding-right: 2em; }
+
 #sec_1 {
   margin-top: 8em; }
-  #sec_1 #intro {
-    padding: 2em; }
   #sec_1 #logo_main {
     margin-top: 3em;
     margin-left: 1em; }
+  #sec_1 #main_row {
+    margin-top: -8em; }
   #sec_1 .main-img {
     padding: 0; }
   #sec_1 h1 {
-    margin: auto; }
+    text-align: center; }
   #sec_1 p {
     margin-bottom: 2em;
     font-family: "Oxygen", sans-serif;
@@ -100,6 +104,7 @@ a {
     background-color: #0C1035;
     color: white;
     font-family: "Open Sans", sans-serif;
-    margin-top: 5em;
     border-radius: .5em;
     padding: 1em; }
+  #sec_3 p {
+    line-height: 1em; }
