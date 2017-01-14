@@ -50,6 +50,7 @@ a{
 #main_row{
     padding-left: 2em;
     padding-right: 2em;
+
 }
 
 #sec_1{
@@ -63,12 +64,15 @@ a{
         margin-left: 1em;
     }
     #main_row{
-
         margin-top: -8em;
     }
     .main-img{
         // removes padding from rows
         padding: 0;
+
+        img{
+            margin: 0;
+        }
     }
     h1{
 

@@ -1,16 +1,16 @@
-$(document).ready(function(){
-$('#sec_1 img').mouseenter(function(){
-    $(this).addClass('screen');
-        });
-    $('#sec_1 img').mouseleave(function(){
-        $(this).removeClass('screen');
+$(document).ready(function() {
+    $(function() {
+        $('#main_images img').addClass('screen');
+    });
+    $(function() {
+        $('#main_images img').mouseenter(function() {
+            $(this).removeClass('screen');
         });
 
-        $('#sec_2 img').mouseenter(function(){
+        $('#main_images img').mouseleave(function() {
             $(this).addClass('screen');
-                });
-            $('#sec_2 img').mouseleave(function(){
-                $(this).removeClass('screen');
-                });
+        });
+    });
+
 
 });
