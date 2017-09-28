@@ -1,193 +1,194 @@
-body{
-}
-div.container-fluid{
-    padding: 0;
+body {}
+
+div.container-fluid {
+    padding : 0;
     overflow: hidden;
 }
-$oxygen:'Oxygen', sans-serif;
-$para:'Open Sans', sans-serif;
+$oxygen: 'Oxygen', sans-serif;
+$para: 'Open Sans', sans-serif;
 $blue: #0C1035;
 $gray: #A9A9A9;
+$black: #000000;
 
-p{
+p {
     font-family: $oxygen;
-    font-size: 1.4em;
-    font-weight:lighter;
-    color: $gray;
+    font-size  : 1.4em;
+    font-weight: lighter;
+    color      : $gray;
 }
-h1{
+
+h1 {
     font-family: $oxygen;
     font-weight: bold;
-    font-size:4em;
-    color: $blue;
-}
-h2{
-
+    font-size  : 4em;
+    color      : $black;
 }
 
-#mainNavBar{
+h2 {
+    color: $black;
+}
+
+#mainNavBar {
     padding-right: 4em;
 }
-.icon-bar{
+
+.icon-bar {
     background-color: $blue;
 }
-#nav_logo{
+
+#nav_logo {
     margin-left: 1.5em;
 }
 
-a{
-    color: $blue;
+a {
+    color      : $black;
     font-family: $oxygen;
     font-weight: 100;
 }
 // === animation classes ===
 
-.screen{
+.screen {
     filter: sepia(1);
 }
-
 // == animation classes end ===
-#main_row{
-    padding-left: 2em;
-    padding-right: 2em;
 
+#main_row {
+    padding-left : 2em;
+    padding-right: 2em;
 }
 
-#sec_1{
-    #intro{
+#sec_1 {
+    #intro {
         // padding: 2em;
-
     }
     margin-top: 8em;
-    #logo_main{
-        margin-top: 3em;
+
+    #logo_main {
+        margin-top : 3em;
         margin-left: 1em;
     }
-    #main_row{
+
+    #main_row {
         margin-top: -8em;
     }
-    .main-img{
+
+    .main-img {
         // removes padding from rows
         padding: 0;
 
-        img{
+        img {
             margin: 0;
         }
     }
-    h1{
 
+    h1 {
         text-align: center;
     }
-    p{
-        margin-bottom: 2em;
-        font-family: $oxygen;
-        font-size: 1.4em;
-        font-weight:lighter;
-        color: $gray;
 
+    p {
+        margin-bottom: 2em;
+        font-family  : $oxygen;
+        font-size    : 1.4em;
+        font-weight  : lighter;
+        color        : $gray;
     }
-    #image_wrapper{
+
+    #image_wrapper {
         padding: 0;
     }
-    .info_box{
+
+    .info_box {
         // padding-left: 3em;
         // padding-right: 3em;
-        margin-left: 2em;
+        margin-left : 2em;
         margin-right: 2em;
 
-        p{
-            font-size: 1.2em;
+        p {
+            font-size  : 1.2em;
             font-family: $oxygen;
             font-weight: lighter;
-
         }
-        h3{
-            color: $blue;
+
+        h3 {
+            color      : $black;
             font-weight: 200;
             font-family: $oxygen;
         }
     }
-
 }
 
-#sec_2{
-    margin-top: 3em;
+#sec_2 {
+    margin-top   : 3em;
     margin-bottom: 5em;
-    img{
-
+    // p {
+    //     margin-left  : 1em;
+    //     padding-right: 1em;
+    // }
+    h1 {
+        font-family  : $oxygen;
+        font-weight  : bold;
+        font-size    : 4em;
+        color        : $black;
+        margin-bottom: 0.5em;
     }
-    p{
-        padding: 1em;
-    }
+    // h2 {
+    //     margin-left: 1em;
+    // }
+    h2 {}
 
-    h1{
-        font-family: $oxygen;
-        font-weight: bold;
-        font-size:4em;
-        color: $blue;
-        margin-bottom:.5em;
-        }
+    p {}
 
-        h2{
-            margin-left: .5em;
-        }
-
-    div .col-sm-6{
+    img {
         padding: 0;
-
-    }
-    #case_study1{
-        padding: 1em;
-    }
-    #case_study2{
-        padding: 1em;
     }
 
-}
-#sec_2A{
-    h2{
-        margin-left: .5em;
+    div .col-sm-6 {
+        padding: 0;
     }
 
-    p{
-    padding: 1em;
-    
+    h2 {
+        margin-left: 1.5em;
+    }
+
+    p {
+        margin-left: 1em;
+        padding    : 1.5em;
     }
 }
 
-.footer{
-
-    p{
+.footer {
+    p {
         font-family: $oxygen;
-        color: $gray;
-        font-size: 1em;
+        color      : $gray;
+        font-size  : 1em;
     }
-    i{
-        color: $blue;
+
+    i {
+        color: $black;
         // align-items: baseline;
     }
-    #social_media{
+
+    #social_media {
         text-align: center;
         margin-top: 6em;
-
     }
-
 }
 
-#sec_3{
+#sec_3 {
     padding: 4em;
 
-    #contact{
-        background-color: $blue;
-        color: white;
-        font-family: $para;
+    #contact {
+        background-color: $black;
+        color           : white;
+        font-family     : $para;
         // margin-top: 5em;
-        border-radius: .5em;
-        padding: 1em;
+        border-radius   : 0.5em;
+        padding         : 1em;
     }
-    #message label{
-        }
-        p{
-            line-height: 1em;
-        }
+
+    #message label {}
+
+    p {
+        line-height: 1em;
+    }
 }
