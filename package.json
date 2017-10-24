@@ -10,5 +10,8 @@
   "license": "ISC",
   "devDependencies": {
     "gulp-watch": "^4.3.9"
+  },
+  "dependencies": {
+    "lightbox2": "^2.9.0"
   }
 }

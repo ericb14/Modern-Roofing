@@ -10,6 +10,12 @@ $blue: #0C1035;
 $gray: #A9A9A9;
 $black: #000000;
 
+.center-block {
+    display     : block;
+    margin-left : auto;
+    margin-right: auto;
+}
+
 p {
     font-family: $oxygen;
     font-size  : 1.4em;
@@ -173,6 +179,15 @@ a {
         margin-top: 6em;
     }
 }
+// === GALLERY STYLE START ===
+
+#gallery {
+    .gallery {
+        padding: 0;
+        margin : 0;
+    }
+}
+// ===GALLERY STYLE END ===
 
 #sec_3 {
     padding: 4em;
