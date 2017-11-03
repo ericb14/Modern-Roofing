@@ -273,29 +273,36 @@
         <div id="sec_3">
 
             <div class="row">
+                <!-- === THANK YOU MESSAGE START === -->
+                <div style="display: none;" id="thankyou_message">
+                    <h2>Thank You!</h2><em>We will be in touch very soon!</em>
+                </div>
+                <!-- === THANK YOU MESSAGE END === -->
                 <h1 class="text-center">Contact</h1>
-                <div id="contact" class="col-sm-6 col-sm-offset-3">
+                <div id="contact" name="contact" class="col-sm-6 col-sm-offset-3">
 
                     <p>Modern Roof Consulting</p>
                     <p>804 Horan Drive, Fenton MO 63026</p>
                     <p>(314)973-6439</p>
-                    <form>
+                    <form id="gform" method="POST" data-email="modernroofconsulting@gmail.com" action="https://script.google.com/macros/s/AKfycbyvNcMtuOgToAvwXXxdHi9L7dsG23TehezMLj6SM5Qts32TKWTC/exec">
                         <div class="form-group">
                             <label for="formGroupExampleInput"></label>
-                            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Your Name">
+                            <input type="text" class="form-control" id="formGroupExampleInput" name="name" placeholder=" name">
                         </div>
                         <div class="form-group">
                             <label for="formGroupExampleInput2"></label>
-                            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Email">
+                            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="email" name="email">
                         </div>
 
                         <div id="message" class="class=col-md-6 form-group">
                             <label for="formGroupExampleInput2"></label>
-                            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Message">
+                            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="message" name="message">
+                            <button class="btn btn-default pull-right" style="background-color:white;color:#0C1035;margin-top:1em;" method="post" onclick="">Submit</button>
                         </div>
 
                     </form>
                 </div>
+
             </div>
         </div>
         <!-- === END OF sec_3 CONTACT FORM === -->
@@ -315,9 +322,10 @@
 
             </footer>
         </div>
+
         <!-- === end of main container === -->
     </div>
-
+    <script data-cfasync="false" type="text/javascript" src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
 </body>
 
 </html>

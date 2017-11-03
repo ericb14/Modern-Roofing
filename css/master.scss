@@ -188,6 +188,7 @@ a {
     }
 }
 // ===GALLERY STYLE END ===
+// === START of FORM STYLE SEC_3 ===
 
 #sec_3 {
     padding: 4em;
@@ -205,5 +206,25 @@ a {
 
     p {
         line-height: 1em;
+    }
+
+    button {
+        margin-right: 40%;
+    }
+
+    #thankyou_message {
+        text-align: center;
+        margin    : auto;
+        width     : 30%;
+
+        h2 {
+            font-family: $oxygen;
+            margin-left: 1em;
+        }
+
+        em {
+            font-family: $oxygen;
+            margin-left: 1em;
+        }
     }
 }
