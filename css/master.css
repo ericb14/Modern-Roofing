@@ -119,8 +119,16 @@ a {
     font-family: "Open Sans", sans-serif;
     border-radius: 0.5em;
     padding: 1em; }
+  #sec_3 a {
+    color: #A9A9A9;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.4em;
+    font-weight: 400; }
+  #sec_3 div.form-group {
+    margin: 0; }
   #sec_3 p {
-    line-height: 1em; }
+    line-height: 1.2em;
+    margin: 0; }
   #sec_3 button {
     margin-right: 40%; }
   #sec_3 #thankyou_message {

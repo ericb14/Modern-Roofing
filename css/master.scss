@@ -202,10 +202,22 @@ a {
         padding         : 1em;
     }
 
+    a {
+        color      : $gray;
+        font-family: $para;
+        font-size  : 1.4em;
+        font-weight: 400;
+    }
+
+    div.form-group {
+        margin: 0;
+    }
+
     #message label {}
 
     p {
-        line-height: 1em;
+        line-height: 1.2em;
+        margin     : 0;
     }
 
     button {
